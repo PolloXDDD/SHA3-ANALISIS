@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.toc
+results-quick/
+tmp/
