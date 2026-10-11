@@ -1,0 +1,120 @@
+{
+  "2": {
+    "meta": {
+      "mean_queries_censored": 1105.7291666666667,
+      "success_rate": 0.7916666666666666,
+      "successes": 38,
+      "total_forced_restarts": 1561,
+      "total_queries": 53075,
+      "total_scc_checks": 1562,
+      "trials": 48,
+      "wilson_ci95": [
+        0.6574109872738206,
+        0.882697270420944
+      ]
+    },
+    "paired_exact_p": 0.0015137195587158203,
+    "paired_success_difference": {
+      "ci95": [
+        0.16016898900422308,
+        0.5481643443291103
+      ],
+      "mean": 0.3541666666666667,
+      "n": 48
+    },
+    "random": {
+      "mean_queries_censored": 1533.3125,
+      "success_rate": 0.4375,
+      "successes": 21,
+      "total_forced_restarts": 0,
+      "total_queries": 73599,
+      "total_scc_checks": 0,
+      "trials": 48,
+      "wilson_ci95": [
+        0.30701269040654244,
+        0.5772498258017222
+      ]
+    }
+  },
+  "24": {
+    "meta": {
+      "mean_queries_censored": 1440.4166666666667,
+      "success_rate": 0.5,
+      "successes": 24,
+      "total_forced_restarts": 2063,
+      "total_queries": 69140,
+      "total_scc_checks": 2067,
+      "trials": 48,
+      "wilson_ci95": [
+        0.36389330502679385,
+        0.6361066949732062
+      ]
+    },
+    "paired_exact_p": 0.15158963203430176,
+    "paired_success_difference": {
+      "ci95": [
+        -0.034982412643643074,
+        0.36831574597697636
+      ],
+      "mean": 0.16666666666666666,
+      "n": 48
+    },
+    "random": {
+      "mean_queries_censored": 1677.3125,
+      "success_rate": 0.3333333333333333,
+      "successes": 16,
+      "total_forced_restarts": 0,
+      "total_queries": 80511,
+      "total_scc_checks": 0,
+      "trials": 48,
+      "wilson_ci95": [
+        0.21676780694818568,
+        0.4745989029405201
+      ]
+    }
+  },
+  "3": {
+    "meta": {
+      "mean_queries_censored": 1683.9791666666667,
+      "success_rate": 0.3125,
+      "successes": 15,
+      "total_forced_restarts": 2426,
+      "total_queries": 80831,
+      "total_scc_checks": 2427,
+      "trials": 48,
+      "wilson_ci95": [
+        0.19945683446587817,
+        0.4533307141589159
+      ]
+    },
+    "paired_exact_p": 0.0783538818359375,
+    "paired_success_difference": {
+      "ci95": [
+        -0.3736322652704086,
+        -0.0013677347295913966
+      ],
+      "mean": -0.1875,
+      "n": 48
+    },
+    "random": {
+      "mean_queries_censored": 1508.3125,
+      "success_rate": 0.5,
+      "successes": 24,
+      "total_forced_restarts": 0,
+      "total_queries": 72399,
+      "total_scc_checks": 0,
+      "trials": 48,
+      "wilson_ci95": [
+        0.36389330502679385,
+        0.6361066949732062
+      ]
+    }
+  },
+  "settings": {
+    "budget": 2048,
+    "ideal_random_success_probability": 0.3935063648773005,
+    "query_accounting": "each distinct message evaluation counts; stop on hit; failures censored at budget",
+    "target_bits": 12,
+    "trials": 48
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "1": {
+    "cycle_lengths": [
+      1,
+      2,
+      13,
+      45,
+      79
+    ],
+    "cycles": 5,
+    "cyclic_vertices": 140,
+    "longest_cycle": 79,
+    "scc_count": 3961
+  },
+  "12": {
+    "cycle_lengths": [
+      25
+    ],
+    "cycles": 1,
+    "cyclic_vertices": 25,
+    "longest_cycle": 25,
+    "scc_count": 4072
+  },
+  "2": {
+    "cycle_lengths": [
+      1,
+      1,
+      5,
+      28,
+      78
+    ],
+    "cycles": 5,
+    "cyclic_vertices": 113,
+    "longest_cycle": 78,
+    "scc_count": 3988
+  },
+  "definition": "F(u) = first 12 bits of prefix-r Keccak-f[25](u || 0^(25-12)); reinject at each step",
+  "null": {
+    "cycles": {
+      "ci95": [
+        4.266551234390948,
+        5.264698765609052
+      ],
+      "mean": 4.765625,
+      "n": 64
+    },
+    "cyclic_vertices": {
+      "ci95": [
+        69.15422247424051,
+        90.81452752575949
+      ],
+      "mean": 79.984375,
+      "n": 64
+    },
+    "longest_cycle": {
+      "ci95": [
+        42.7631564616023,
+        58.4243435383977
+      ],
+      "mean": 50.59375,
+      "n": 64
+    }
+  },
+  "state_count": 4096
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "test_methods": 15,
+  "saved_search_endpoints_checked": 768,
+  "source_fingerprints_checked": 8,
+  "diffusion_summaries": "recomputed from raw arrays",
+  "projected_cycles": "independently checked by indegree pruning",
+  "collision_certificate": "verified reduced digests and hashlib full-round digests"
+}

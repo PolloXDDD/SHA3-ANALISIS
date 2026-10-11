@@ -1,0 +1,166 @@
+{
+  "1": {
+    "max_influence": 1.0,
+    "mean_abs_ate": 0.00954765625,
+    "mean_abs_pearson": 0.012053725921944376,
+    "mean_influence": 0.59938125,
+    "min_influence": 0.48291015625,
+    "threshold_scc": {
+      "0.1": {
+        "components": 1,
+        "edges": 625,
+        "largest": 25
+      },
+      "0.4": {
+        "components": 1,
+        "edges": 625,
+        "largest": 25
+      },
+      "0.6": {
+        "components": 1,
+        "edges": 125,
+        "largest": 25
+      }
+    }
+  },
+  "12": {
+    "max_influence": 0.5234375,
+    "mean_abs_ate": 0.00919296875,
+    "mean_abs_pearson": 0.013026031153118066,
+    "mean_influence": 0.50050859375,
+    "min_influence": 0.475341796875,
+    "threshold_scc": {
+      "0.1": {
+        "components": 1,
+        "edges": 625,
+        "largest": 25
+      },
+      "0.4": {
+        "components": 1,
+        "edges": 625,
+        "largest": 25
+      },
+      "0.6": {
+        "components": 25,
+        "edges": 0,
+        "largest": 1
+      }
+    }
+  },
+  "2": {
+    "max_influence": 0.522216796875,
+    "mean_abs_ate": 0.009021875,
+    "mean_abs_pearson": 0.012752164284602036,
+    "mean_influence": 0.50015546875,
+    "min_influence": 0.47998046875,
+    "threshold_scc": {
+      "0.1": {
+        "components": 1,
+        "edges": 625,
+        "largest": 25
+      },
+      "0.4": {
+        "components": 1,
+        "edges": 625,
+        "largest": 25
+      },
+      "0.6": {
+        "components": 25,
+        "edges": 0,
+        "largest": 1
+      }
+    }
+  },
+  "3": {
+    "max_influence": 0.521484375,
+    "mean_abs_ate": 0.008346875,
+    "mean_abs_pearson": 0.012527410499162797,
+    "mean_influence": 0.5000703125,
+    "min_influence": 0.469970703125,
+    "threshold_scc": {
+      "0.1": {
+        "components": 1,
+        "edges": 625,
+        "largest": 25
+      },
+      "0.4": {
+        "components": 1,
+        "edges": 625,
+        "largest": 25
+      },
+      "0.6": {
+        "components": 25,
+        "edges": 0,
+        "largest": 1
+      }
+    }
+  },
+  "4": {
+    "max_influence": 0.519775390625,
+    "mean_abs_ate": 0.00882578125,
+    "mean_abs_pearson": 0.012369498265043402,
+    "mean_influence": 0.50025,
+    "min_influence": 0.478515625,
+    "threshold_scc": {
+      "0.1": {
+        "components": 1,
+        "edges": 625,
+        "largest": 25
+      },
+      "0.4": {
+        "components": 1,
+        "edges": 625,
+        "largest": 25
+      },
+      "0.6": {
+        "components": 25,
+        "edges": 0,
+        "largest": 1
+      }
+    }
+  },
+  "6": {
+    "max_influence": 0.524169921875,
+    "mean_abs_ate": 0.00850234375,
+    "mean_abs_pearson": 0.011893362958402227,
+    "mean_influence": 0.50031875,
+    "min_influence": 0.4736328125,
+    "threshold_scc": {
+      "0.1": {
+        "components": 1,
+        "edges": 625,
+        "largest": 25
+      },
+      "0.4": {
+        "components": 1,
+        "edges": 625,
+        "largest": 25
+      },
+      "0.6": {
+        "components": 25,
+        "edges": 0,
+        "largest": 1
+      }
+    }
+  },
+  "settings": {
+    "contexts_per_intervention": 4096,
+    "matrix_axes": "row=input bit, column=output bit",
+    "sampling": "uniform random 25-bit states, paired do(X_i=0/1)",
+    "width": 25
+  },
+  "structural": {
+    "1600": {
+      "components": 1,
+      "edges": 52800,
+      "largest": 1600,
+      "vertices": 1600
+    },
+    "25": {
+      "components": 1,
+      "edges": 625,
+      "largest": 25,
+      "vertices": 25
+    }
+  }
+}

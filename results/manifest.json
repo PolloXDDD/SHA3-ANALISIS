@@ -1,0 +1,26 @@
+{
+  "avalanche_pairs_per_difference": 8192,
+  "causal_contexts": 4096,
+  "classifier_examples_per_class": 2048,
+  "elapsed_seconds": 59.59232528999996,
+  "message_length_bytes": 128,
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "quick": false,
+  "round_schedule": "prefix RC[0:r]",
+  "scipy": "1.17.0",
+  "search_budget": 2048,
+  "search_trials_per_method_per_round": 48,
+  "seed": 20261011,
+  "source_sha256": {
+    "__init__.py": "5eca700cdf7e28ad6803db71ef01d68a4e9fe5947ef0237d3b664f61435c744c",
+    "ablations.py": "6cb175186e32e54cf8dd8f4aa184725073310ac4ab5b66f3837a8830623b39ad",
+    "attacks.py": "1e8b52b550b575445acc24eb52d4ac092514f77aa3d344c36a7d763fdfa8ed87",
+    "experiments.py": "732bdef42d65720336f919ca515ff51d646a6381699825dbfacbe76b6767bb22",
+    "graphs.py": "660ab7362cf979685dadf866828da493e0e5378b8e2a87e697522e68380b5b40",
+    "hypercomplex.py": "886b95beceef54201cea7349aa41cf231667d20f7f3b3f5c86733fa95d34ca5f",
+    "keccak.py": "670e15358ea5a5f0875765a12de50b1d47850095542d9c4380bf12bd3281fb3b",
+    "metamarkov.py": "4ac336d132b703d5f9f6983a1f75575d902cb9982f2e2ce7285b34a5615bf7c7"
+  }
+}
